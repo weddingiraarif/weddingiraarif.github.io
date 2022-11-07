@@ -9,7 +9,10 @@
 body{
     font-family: 'The Girl Next Door', cursive;
     height: 5000px;
-    background-color: #FFC5C6;
+    background-image: url('image/background4.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
 }
 hr {
     border: none;
@@ -41,18 +44,18 @@ hr {
     width: 80%;
     border-radius: 30px;
 }
-#banner {
-    background-image: url('image/background3.png');
+/* #banner {
+    background-image: url('image/background4.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
 }
 #lokasi {
-    background-image: url('image/background3.png');
+    background-image: url('image/background4.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-}
+    background-size: auto;
+} */
 #lokasi hr {
     border: none;
     height: 4px;
@@ -65,6 +68,12 @@ hr {
     font-family: 'Poppins', sans-serif;
     width: 30%; 
 }
+
+#pesan .card{
+    font-family: 'Poppins', sans-serif;
+    width: 80%; 
+}
+
 
 .nav-link{
     color: #be454f;
@@ -100,4 +109,6 @@ hr {
     #amplop .card{
         width: 80%;
     }
+
+    
 }
