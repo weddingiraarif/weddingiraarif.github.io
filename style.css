@@ -27,7 +27,7 @@ body{
 hr {
     border: none;
     height: 4px;
-    width: 30%;
+    width: 20%;
     opacity: 1;
     background-color: #693D3C; /* Modern Browsers */
 }
@@ -99,5 +99,8 @@ hr {
     }
     #pesan .card{
         width: 100%;
+    }
+    #pembukaan h6{
+        font-size: 18px;
     }
 }
