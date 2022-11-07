@@ -70,6 +70,7 @@ hr {
 
 #pesan .card{
     font-family: 'Poppins', sans-serif;
+    width: 60%;
 }
 
 .nav-link{
@@ -105,5 +106,8 @@ hr {
 @media screen and (max-width:994px) {
     #amplop .card{
         width: 80%;
+    }
+    #pesan .card{
+        width: 100%;
     }
 }
