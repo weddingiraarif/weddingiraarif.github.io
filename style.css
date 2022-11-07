@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /* font-family: 'Poppins', sans-serif; */
-/* font-family: 'The Girl Next Door', cursive; */
 /* font-family: 'Lobster', cursive; */
 /* font-family: 'Pacifico', cursive; */
 
 body{
-    font-family: 'The Girl Next Door', cursive;
+    font-family: 'Poppins', sans-serif;
     height: 5000px;
     background-image: url('image/backgorund6.jpg');
     /* Set background image to fixed (don't scroll along with the page) */
@@ -37,20 +35,13 @@ hr {
 #nama {
     font-family: 'Lobster', cursive;
 }
-#pembukaan {
-    font-family: 'Poppins', sans-serif; 
-}
+
 #banner {
     font-family: 'Pacifico', cursive;
 }
 
 #tentangkami .accordion-body{
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif; 
-}
-
-#lokasi .card{
-    font-family: 'Poppins', sans-serif;
+    font-size: 14px; 
 }
 
 #banner .card{
@@ -59,17 +50,11 @@ hr {
     border-radius: 30px;
 }
 
-#protokol {
-    font-family: 'Poppins', sans-serif; 
-}
-
 #amplop .card{
-    font-family: 'Poppins', sans-serif;
     width: 30%;
 }
 
 #pesan .card{
-    font-family: 'Poppins', sans-serif;
     width: 80%;
 }
 
