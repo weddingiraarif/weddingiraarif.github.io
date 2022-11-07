@@ -45,14 +45,6 @@ hr {
     border-radius: 30px;
 }
 
-#lokasi hr {
-    border: none;
-    height: 4px;
-    width: 50%;
-    opacity: 1;
-    background-color: white; /* Modern Browsers */
-}
-
 #amplop .card{
     font-family: 'Poppins', sans-serif;
     width: 30%; 
@@ -99,5 +91,11 @@ hr {
         width: 80%;
     }
 
+    body{
+        background-image: url('image/background5.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
     
 }
