@@ -67,7 +67,7 @@
         </div>
         <div class="row mt-3" >
           <h3 class="fw-bold c1" id="nama">Nur Rahma Khairatunnisa</h3>
-          <small class="c1">Putri Dari Keluarga Bapak Agus Dan Ibu Nurin</small>
+          <small class="c1">Putri Dari Keluarga Bapak Agus Cahyono (Purn.TNI) Dan Ibu Nurin</small>
         </div>
         <div class="row mt-3">
           <h4 class="c1"><i class="bi bi-heart-fill"></i></h4>
@@ -228,17 +228,33 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+          <div class="col d-flex justify-content-center">
+            <div class="card shadow" data-aos="flip-left" data-aos-duration="1000">
+              <div class="card-body text-center">
+                <img src="image/bri.png" width="80%" alt="bri">
+                <h6 class="card-title fw-bold">Nomer Rekening</h6>
+                <h6 class="card-subtitle mb-2 text-muted" >01400110040550</h6>
+                <input type="hidden" value="01400110040550" id="text-copy">
+                <small class="card-subtitle mb-2 text-muted">(A/n Agus Cahyono)</small>
+                <div class="d-grid mt-3">
+                  <button class="btn btn-success rounded fw-bold" type="button" onclick="copyText()">
+                    <i class="bi bi-clipboard2-heart-fill"></i> COPY
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col d-flex justify-content-center">
             <div class="card shadow" data-aos="flip-left" data-aos-duration="1000">
               <div class="card-body text-center">
                 <img src="image/bri.png" width="80%" alt="bri">
                 <h6 class="card-title fw-bold">Nomer Rekening</h6>
                 <h6 class="card-subtitle mb-2 text-muted" >014001100405504</h6>
-                <input type="hidden" value="014001100405504" id="text-copy">
-                <small class="card-subtitle mb-2 text-muted">(A/N Nur Rahma Khairatunnisa)</small>
+                <input type="hidden" value="014001100405504" id="text-copy1">
+                <small class="card-subtitle mb-2 text-muted">(A/n Nur Rahma Khairatunnisa)</small>
                 <div class="d-grid mt-3">
-                  <button class="btn btn-success rounded fw-bold" type="button" onclick="copyText()">
+                  <button class="btn btn-success rounded fw-bold" type="button" onclick="copyText1()">
                     <i class="bi bi-clipboard2-heart-fill"></i> COPY
                   </button>
                 </div>
@@ -306,6 +322,19 @@
       function copyText() {
           // Get the text field
           var copyText = document.getElementById("text-copy");
+
+          // Select the text field
+          copyText.select();
+
+          // Copy the text inside the text field
+          navigator.clipboard.writeText(copyText.value);
+
+          // Alert the copied text
+          alert("Nomer Rekening Sudah Tercopy");
+      }
+      function copyText1() {
+          // Get the text field
+          var copyText = document.getElementById("text-copy1");
 
           // Select the text field
           copyText.select();
