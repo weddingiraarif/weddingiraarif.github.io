@@ -11,7 +11,7 @@
 body{
     font-family: 'The Girl Next Door', cursive;
     height: 5000px;
-    background-image: url('image/background4.png');
+    background-image: url('image/backgorund6.jpg');
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
 
@@ -30,7 +30,7 @@ hr {
     height: 4px;
     width: 50%;
     opacity: 1;
-    background-color: #be454f; /* Modern Browsers */
+    background-color: #693D3C; /* Modern Browsers */
 }
 
 
@@ -74,11 +74,11 @@ hr {
 }
 
 .nav-link{
-    color: #be454f;
+    color: #693D3C;
 }
 
 .c1{
-    color: #be454f;
+    color: #693D3C;
 }
 
 @keyframes floaterfont {
@@ -104,6 +104,9 @@ hr {
 }
 
 @media screen and (max-width:994px) {
+    body{
+        background-image: url('image/backgorund7.jpg');
+    }
     #amplop .card{
         width: 80%;
     }
