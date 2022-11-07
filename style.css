@@ -59,6 +59,10 @@ hr {
     border-radius: 30px;
 }
 
+#protokol {
+    font-family: 'Poppins', sans-serif; 
+}
+
 #amplop .card{
     font-family: 'Poppins', sans-serif;
     width: 30%;
