@@ -82,6 +82,17 @@ hr {
     transition: ease 0.5s;
 }
 
+@keyframes floaterfoto {
+    0%{transform: translateY(-0.5%);transition: ease 0.5s;}
+    50%{transform: translateY(0.5%);transition: ease 0.5s;}
+}
+  
+.floating-foto{
+    transform: translateY(-0.5%);
+    animation: floaterfoto 3s infinite;
+    transition: ease 0.5s;
+}
+
 @keyframes floaterimg {
     0%{transform: translateY(-2%);transition: ease 0.5s;}
     50%{transform: translateY(2%);transition: ease 0.5s;}
