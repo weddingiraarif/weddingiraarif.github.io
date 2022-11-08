@@ -59,6 +59,10 @@ hr {
     width: 80%;
 }
 
+#foto img:hover{
+    transform: scale(1.05);
+}
+
 .nav-link{
     color: #693D3C;
 }
