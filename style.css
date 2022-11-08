@@ -9,7 +9,6 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    height: 5000px;
     background-image: url('image/backgorund6.jpg');
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
