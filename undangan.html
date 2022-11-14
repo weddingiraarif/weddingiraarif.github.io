@@ -231,26 +231,112 @@
           </div>
         </div>
       </div>
+
       <div class="container" id="foto">
         <div class="row row-cols-2 row-cols-md-4 g-4 align-items-center floating-foto">
           <div class="col">
-            <img src="image/galeri/1.jpeg" class="img-fluid img-thumbnail rounded shadow " alt="gambar1">
+            <img type="button" src="image/galeri/1.jpeg" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#gambar1" alt="gambar1">
           </div>
           <div class="col">
             <div class="row row-cols-1 g-2">
               <div class="col">
-                <img src="image/galeri/4.jpeg" class="img-fluid img-thumbnail rounded shadow " alt="gambar4">
+                <img type="button" src="image/galeri/2.jpeg" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#gambar2" alt="gambar2">
               </div>
               <div class="col">
-                <img src="image/galeri/5.JPG" class="img-fluid img-thumbnail rounded shadow " alt="gambar5">
+                <img type="button" src="image/galeri/3.JPG" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#gambar3" alt="gambar3">
               </div>
             </div>
           </div>
           <div class="col">
-            <img src="image/galeri/2.jpeg" class="img-fluid img-thumbnail rounded shadow " alt="gambar2">
+            <img type="button" src="image/galeri/4.jpeg" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#gambar4" alt="gambar4">
           </div>
           <div class="col">
-            <img src="image/galeri/3.jpeg" class="img-fluid img-thumbnail rounded shadow " alt="gambar3">
+            <img type="button" src="image/galeri/5.jpeg" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#gambar5" alt="gambar5">
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="gambar1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Galeri Kita</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="image/galeri/1.jpeg" class="img-fluid" alt="gambar1">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar2">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="gambar2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Galeri Kita</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="image/galeri/2.jpeg" class="img-fluid" alt="gambar2">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar1">Previous</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar3">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="gambar3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Galeri Kita</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="image/galeri/3.JPG" class="img-fluid" alt="gambar3">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar2">Previous</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar4">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="gambar4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Galeri Kita</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="image/galeri/4.jpeg" class="img-fluid" alt="gambar4">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar3">Previous</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar5">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="gambar5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Galeri Kita</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="image/galeri/5.jpeg" class="img-fluid" alt="gambar5">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gambar4">Previous</button>
+            </div>
           </div>
         </div>
       </div>
