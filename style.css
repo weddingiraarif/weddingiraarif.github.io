@@ -1,120 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Lobster', cursive; */
 /* font-family: 'Pacifico', cursive; */
 
-body{
-    font-family: 'Poppins', sans-serif;
-    background-image: url('image/backgorund6.jpg');
-    /* Set background image to fixed (don't scroll along with the page) */
-    background-attachment: fixed;
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("image/backgorund6.jpg");
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
 
-    /* Center the background image */
-    background-position: center;
+  /* Center the background image */
+  background-position: center;
 
-    /* Set the background image to no repeat */
-    background-repeat: no-repeat;
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
 
-    /* Scale the background image to be as large as possible */
-    background-size: cover;
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
 }
 
 hr {
-    border: none;
-    height: 4px;
-    width: 20%;
-    opacity: 1;
-    background-color: #693D3C; /* Modern Browsers */
+  border: none;
+  height: 4px;
+  width: 20%;
+  opacity: 1;
+  background-color: #693d3c; /* Modern Browsers */
 }
 
-
 #nama {
-    /* font-family: 'Lobster', cursive; */
-    font-family: 'Berkshire Swash', cursive;
+  /* font-family: 'Lobster', cursive; */
+  font-family: "Berkshire Swash", cursive;
 }
 
 #banner {
-    font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
-#tentangkami .accordion-body{
-    font-size: 14px; 
+#tentangkami .accordion-body {
+  font-size: 14px;
 }
 
-#banner .card{
-    background-color: #FFC5C6;
-    width: 80%;
-    border-radius: 30px;
+#banner .card {
+  background-color: #ffc5c6;
+  width: 80%;
+  border-radius: 30px;
 }
 
-#amplop .card{
-    width: 70%;
+#amplop .card {
+  width: 70%;
 }
 
-#pesan .card{
-    width: 80%;
+#pesan .card {
+  width: 80%;
 }
 
-#foto img:hover{
-    transform: scale(1.05);
+.nav-link {
+  color: #693d3c;
 }
 
-.nav-link{
-    color: #693D3C;
+.c1 {
+  color: #693d3c;
 }
 
-.c1{
-    color: #693D3C;
+.carousel {
+  width: 540px;
+  height: 304px;
 }
 
 @keyframes floaterfont {
-    0%{transform: translateY(-10%);transition: ease 0.5s;}
-    50%{transform: translateY(10%);transition: ease 0.5s;}
-}
-  
-.floating-font{
+  0% {
     transform: translateY(-10%);
-    animation: floaterfont 3s infinite;
     transition: ease 0.5s;
+  }
+  50% {
+    transform: translateY(10%);
+    transition: ease 0.5s;
+  }
 }
 
-@keyframes floaterfoto {
-    0%{transform: translateY(-0.5%);transition: ease 0.5s;}
-    50%{transform: translateY(0.5%);transition: ease 0.5s;}
-}
-  
-.floating-foto{
-    transform: translateY(-0.5%);
-    animation: floaterfoto 3s infinite;
-    transition: ease 0.5s;
+.floating-font {
+  transform: translateY(-10%);
+  animation: floaterfont 3s infinite;
+  transition: ease 0.5s;
 }
 
 @keyframes floaterimg {
-    0%{transform: translateY(-2%);transition: ease 0.5s;}
-    50%{transform: translateY(2%);transition: ease 0.5s;}
-}
-  
-.floating-img{
+  0% {
     transform: translateY(-2%);
-    animation: floaterimg 3s infinite;
     transition: ease 0.5s;
+  }
+  50% {
+    transform: translateY(2%);
+    transition: ease 0.5s;
+  }
 }
 
-@media screen and (max-width:994px) {
-    body{
-        background-image: url('image/backgorund7.jpg');
-    }
-    #amplop .card{
-        width: 80%;
-    }
-    #pesan .card{
-        width: 100%;
-    }
-    #pembukaan h6{
-        font-size: 18px;
-    }
+.floating-img {
+  transform: translateY(-2%);
+  animation: floaterimg 3s infinite;
+  transition: ease 0.5s;
+}
+
+@media screen and (max-width: 994px) {
+  body {
+    background-image: url("image/backgorund7.jpg");
+  }
+  .nav-link {
+    font-size: 10px;
+  }
+  .f-12 {
+    font-size: 12px;
+  }
+  .f-10 {
+    font-size: 10px;
+  }
+  #nama {
+    font-size: 16px;
+  }
+  #amplop .card {
+    width: 80%;
+  }
+  #pesan .card {
+    width: 100%;
+  }
+  #pembukaan h6 {
+    font-size: 18px;
+  }
+  .carousel {
+    width: 270px;
+    height: 152px;
+  }
+  .Font-title {
+    font-size: 16px;
+  }
+  .Lokasi-title {
+    font-size: 16px;
+  }
+  .Lokasi-text {
+    font-size: 12px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
 }
