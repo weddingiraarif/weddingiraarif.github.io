@@ -80,37 +80,93 @@ video {
   height: 304px;
 }
 
-@keyframes floaterfont {
+@-webkit-keyframes floaterfont {
   0% {
+    -webkit-transform: translateY(-10%);
     transform: translateY(-10%);
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
     transition: ease 0.5s;
   }
   50% {
+    -webkit-transform: translateY(10%);
     transform: translateY(10%);
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+}
+
+@keyframes floaterfont {
+  0% {
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  50% {
+    -webkit-transform: translateY(10%);
+    transform: translateY(10%);
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
     transition: ease 0.5s;
   }
 }
 
 .floating-font {
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
   transform: translateY(-10%);
+  -webkit-animation: floaterfont 3s infinite;
   animation: floaterfont 3s infinite;
+  -webkit-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
   transition: ease 0.5s;
+}
+
+@-webkit-keyframes floaterimg {
+  0% {
+    -webkit-transform: translateY(-2%);
+    transform: translateY(-2%);
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
+  50% {
+    -webkit-transform: translateY(2%);
+    transform: translateY(2%);
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+  }
 }
 
 @keyframes floaterimg {
   0% {
+    -webkit-transform: translateY(-2%);
     transform: translateY(-2%);
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
     transition: ease 0.5s;
   }
   50% {
+    -webkit-transform: translateY(2%);
     transform: translateY(2%);
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
     transition: ease 0.5s;
   }
 }
 
 .floating-img {
+  -webkit-transform: translateY(-2%);
+  -ms-transform: translateY(-2%);
   transform: translateY(-2%);
+  -webkit-animation: floaterimg 3s infinite;
   animation: floaterimg 3s infinite;
+  -webkit-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
   transition: ease 0.5s;
 }
 
@@ -157,6 +213,18 @@ video {
     font-size: 16px;
   }
   .Lokasi-text {
+    font-size: 12px;
+  }
+  input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  input::-moz-placeholder {
+    font-size: 12px;
+  }
+  input:-ms-input-placeholder {
+    font-size: 12px;
+  }
+  input::-ms-input-placeholder {
     font-size: 12px;
   }
   input::placeholder {
