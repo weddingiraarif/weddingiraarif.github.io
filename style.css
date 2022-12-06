@@ -71,6 +71,15 @@ hr {
   height: 304px;
 }
 
+.carousel-modal {
+  width: 100%;
+}
+
+#video {
+  width: 540px;
+  height: 304px;
+}
+
 @keyframes floaterfont {
   0% {
     transform: translateY(-10%);
@@ -131,6 +140,13 @@ hr {
     font-size: 18px;
   }
   .carousel {
+    width: 270px;
+    height: 152px;
+  }
+  .carousel-modal {
+    width: 100%;
+  }
+  #video {
     width: 270px;
     height: 152px;
   }
