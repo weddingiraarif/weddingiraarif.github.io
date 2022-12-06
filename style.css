@@ -75,7 +75,7 @@ hr {
   width: 100%;
 }
 
-#video {
+video {
   width: 540px;
   height: 304px;
 }
@@ -146,7 +146,7 @@ hr {
   .carousel-modal {
     width: 100%;
   }
-  #video {
+  video {
     width: 270px;
     height: 152px;
   }
